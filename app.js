@@ -5,7 +5,7 @@ if(process.argv.length<3){
 }
 var fs = require('fs');
 var CryptoJS = require("crypto-js");
-const CHAVE = '6891 DTI!ORCOM?SIGOM @UDESP TR3LLO PUBLIC 8102';
+const CHAVE = 'SUA CHAVE AQUI!';
 var arq = fs.readFileSync('./repo/'.concat(process.argv[2]),'utf-8');
 var ciphertext = CryptoJS.AES.encrypt(arq, CHAVE);
 var retorno = ciphertext.toString();
