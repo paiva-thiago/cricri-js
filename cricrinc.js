@@ -1,4 +1,5 @@
-const CHAVE = '6891 DTI!ORCOM?SIGOM @UDESP TR3LLO PUBLIC 8102';
+const CHAVE = 'SUA CHAVE AQUI!';
+
 var   CryptoJS = require("crypto-js");
 
 var bParametrosNaoPermitindoExecucao = function(argv){
